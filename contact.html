@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Page</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav>
+        <div class="logo"><img src="./images/Fashion-logo.jpg" alt="logo"></div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./Testimonial.html">Testimonial</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- Created a div housing all the div in the webpage -->
+    <div class="housing-container">
+
+        <!-- Creating a div for the colored part -->
+        <div class="left-container">
+            <h2>Contact Info</h2>
+            <p><span><i class="fa-regular fa-user"></i> Name </span><br> Oginefe Promise Oke</p>
+            <p><span><i class="fa-regular fa-envelope"></i> Email </span><br> www.promzy13@gmail.com</p>
+            <p><span><i class="fa-solid fa-phone"></i> Phone </span><br> 08102699077</p>
+            <p><span><i class="fa-solid fa-location-dot"></i> Address </span><br> Admiralty way, Lekki Phase 1</p>
+            <div class="icon"><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i></div>
+        </div>
+        <!-- Creating another div for the form -->
+        <div class="right-container">
+            <form  class="form" method="post">
+                <h2>Contact Us</h2>
+                <br>
+                <label for="name">Name</label> <br><input type="text" id="name">
+                <br>
+                <label for="email">Email</label> <br><input type="email" id="email">
+                <br>
+                <label for="phone">Phone</label> <br><input type="tel" id="phone" placeholder="(+234)">
+                <br>
+                <p>Message</p>
+                <textarea name="message" id="message" cols="63" rows="5"></textarea>
+                <!-- <label for="message">Message</label> <br><input type="text" id="message"> -->
+
+                <!-- The submit button -->
+                <div><button>Submit</button></div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="inner-container">
+                <img src="./images/Fashion-logo.jpg" alt="Logo">
+                <p>Models need to be passionate about their career. The most successful models communicate well and can remain poised in stressful situations. Networking skills are essential for fashion models to find representation, build their portfolios, get exposure, and get booked for work.</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Social Media</h3>
+                <p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </p>
+            </div>
+        </div>
+        <p>Copyright &copy; 2022. All rights reserved.</p>
+    </footer>
+
+    <script src="./script/contact.js"></script>
+</body>
+</html>
